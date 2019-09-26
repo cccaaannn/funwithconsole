@@ -454,13 +454,4 @@ class draw:
                     print("   ", end="")
             print("")
 
-
-
-
-
-draw = draw()
-
-draw.drawString("console", string_char="//")
-
-        
-					
+				
