@@ -1,1 +1,1 @@
-from .funwithconsole import writeLettersToConsole,giveMeChristmas
+from .funwithconsole import draw

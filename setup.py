@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="funwithconsole",
-    version="0.0.1",
+    version="0.0.2",
     author="Can Kurt",
     author_email="can.kurt.aa@gmail.com",
     description="funny console tools",

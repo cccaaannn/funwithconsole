@@ -1,8 +1,10 @@
 ## funwithconsole
 
-- **Prints strings as big letters to console**
+- **Draws strings as big letters to console**
 
-- **Prints a christmas tree**
+- **Draws christmas tree**
+
+- **Draws various shapes** 
 
 
 ## Install
@@ -14,24 +16,53 @@ pip install funwithconsole
 ## Usage
 
 ```python
-from funwithconsole import writeLettersToConsole,giveMeChristmas
+from funwithconsole import draw
 ```
 
 ```python
-writeLettersToConsole("hello")
+draw = draw()
+draw.drawString("HELLO", string_char="HI")
 ```
 
 ```
-  H   H    EEEEE    L        L        OOOOO
-  H   H    E        L        L        O   O
-  HHHHH    EEEEE    L        L        O   O
-  H   H    E        L        L        O   O
-  H   H    EEEEE    LLLLL    LLLLL    OOOOO
+HI      HI    HIHIHIHIHI    HI            HI            HIHIHIHIHI
+HI      HI    HI            HI            HI            HI      HI
+HIHIHIHIHI    HIHIHIHIHI    HI            HI            HI      HI
+HI      HI    HI            HI            HI            HI      HI
+HI      HI    HIHIHIHIHI    HIHIHIHIHI    HIHIHIHIHI    HIHIHIHIHI
 ```
-
 
 ```python
-giveMeChristmas()
+draw.drawString("console", string_char="//")
+```
+
+```
+//////////    //////////    ////        //    //////////    //////////    //            //////////
+//            //      //    //  //      //    //            //      //    //            //
+//            //      //    //    //    //    //////////    //      //    //            //////////
+//            //      //    //      //  //            //    //      //    //            //
+//////////    //////////    //        ////    //////////    //////////    //////////    //////////
+```
+
+```python
+draw.drawTriangle1(shape_size=10, shape_char="hi")
+```
+
+```
+ hi
+ hi  hi
+ hi  hi  hi
+ hi  hi  hi  hi
+ hi  hi  hi  hi  hi
+ hi  hi  hi  hi  hi  hi
+ hi  hi  hi  hi  hi  hi  hi
+ hi  hi  hi  hi  hi  hi  hi  hi
+ hi  hi  hi  hi  hi  hi  hi  hi  hi
+ hi  hi  hi  hi  hi  hi  hi  hi  hi  hi
+```
+
+```python
+draw.giveMeChristmas()
 ```
 
 ```
